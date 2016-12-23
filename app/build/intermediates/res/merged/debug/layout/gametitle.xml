@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:background="@drawable/frog_title">
+
+	<ImageButton android:id="@+id/intro_back_btn"
+		android:layout_marginLeft="30px" android:layout_marginTop="30px"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:background="@drawable/intro_back_btn" />
+	
+	<TextView android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:textStyle="bold"
+		android:gravity="center" android:textSize="30pt"
+		android:layout_marginTop="11pt" android:text="Dragonfly"
+		android:textColor="@color/default_text" />
+	
+
+	<TextView android:id="@+id/title_play"
+		android:layout_marginLeft="275px" android:layout_marginTop="222px"
+		android:layout_width="250px" android:layout_height="58px"
+		android:textStyle="bold" android:gravity="center" android:textSize="7pt"
+		android:text="PLAY" android:background="@drawable/intro_btn" android:textColor="@color/button_text" android:textColorHighlight="@color/button_text_s"/>
+
+	<TextView android:id="@+id/title_help"
+		android:layout_marginLeft="275px" android:layout_marginTop="299px"
+		android:layout_width="250px" android:layout_height="58px"
+		android:textStyle="bold" android:gravity="center" android:textSize="7pt"
+		android:text="HELP" android:background="@drawable/intro_btn" android:textColor="@color/button_text" android:textColorHighlight="@color/button_text_s"/>
+		
+	
+	<TextView android:id="@+id/card_info"
+		android:layout_marginLeft="275px" android:layout_marginTop="376px"
+		android:layout_width="250px" android:layout_height="58px"
+		android:textStyle="bold" android:gravity="center" android:textSize="7pt"
+		android:text="COLLECTION" android:background="@drawable/intro_btn" android:textColor="@color/button_text" android:textColorHighlight="@color/button_text_s"/>
+		
+</RelativeLayout>

@@ -1,0 +1,24 @@
+#Internal package file, do not edit.
+#Fri Dec 23 17:50:39 KST 2016
+2.base=/Users/1000128/Documents/Dev/Magic Book Folder/DLspeedTest/app/build/intermediates/res/resources-debug.ap_
+5.file=/Users/1000128/Documents/Dev/Magic Book Folder/DLspeedTest/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex
+5.set=DEX
+3.base=/Users/1000128/Documents/Dev/Magic Book Folder/DLspeedTest/app/build/intermediates/res/resources-debug.ap_
+6.file=/Users/1000128/Documents/Dev/Magic Book Folder/DLspeedTest/app/build/intermediates/res/resources-debug.ap_/res/anim/hold.xml
+2.set=ANDROID_RESOURCE
+4.base=/Users/1000128/Documents/Dev/Magic Book Folder/DLspeedTest/app/build/intermediates/res/resources-debug.ap_
+count=7
+0.file=/Users/1000128/Documents/Dev/Magic Book Folder/DLspeedTest/app/build/intermediates/res/resources-debug.ap_/res/drawable-hdpi-v4/ic_launcher.png
+5.base=/Users/1000128/Documents/Dev/Magic Book Folder/DLspeedTest/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main
+4.set=ANDROID_RESOURCE
+6.base=/Users/1000128/Documents/Dev/Magic Book Folder/DLspeedTest/app/build/intermediates/res/resources-debug.ap_
+1.file=/Users/1000128/Documents/Dev/Magic Book Folder/DLspeedTest/app/build/intermediates/res/resources-debug.ap_/resources.arsc
+1.set=ANDROID_RESOURCE
+2.file=/Users/1000128/Documents/Dev/Magic Book Folder/DLspeedTest/app/build/intermediates/res/resources-debug.ap_/AndroidManifest.xml
+6.set=ANDROID_RESOURCE
+0.base=/Users/1000128/Documents/Dev/Magic Book Folder/DLspeedTest/app/build/intermediates/res/resources-debug.ap_
+3.file=/Users/1000128/Documents/Dev/Magic Book Folder/DLspeedTest/app/build/intermediates/res/resources-debug.ap_/res/anim/fade.xml
+3.set=ANDROID_RESOURCE
+1.base=/Users/1000128/Documents/Dev/Magic Book Folder/DLspeedTest/app/build/intermediates/res/resources-debug.ap_
+4.file=/Users/1000128/Documents/Dev/Magic Book Folder/DLspeedTest/app/build/intermediates/res/resources-debug.ap_/res/layout/main.xml
+0.set=ANDROID_RESOURCE

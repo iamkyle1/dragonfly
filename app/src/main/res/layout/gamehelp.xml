@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/screen_help" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:background="@drawable/game_help_bg01"
+	android:orientation="horizontal">
+
+
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:orientation="vertical" android:layout_marginTop="256px"
+		android:gravity="center_horizontal">
+
+		<TextView android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:id="@+id/help_text1"
+			android:textColor="@color/help_text"
+			android:text="How to play - Basic decription"
+			android:focusable="false" android:textSize="6pt"/>
+			
+		<TextView android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginTop="5px"
+	        android:id="@+id/help_text2"
+	        android:textColor="@color/help_text"
+	        android:text="Catch the flying dragonfly on the screen within the fixed time."
+	        android:focusable="false" android:textSize="6pt"/>
+	        
+	    <TextView android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginTop="5px"
+	        android:id="@+id/help_text3"
+	        android:textColor="@color/help_text"
+	        android:text="move the device side to side to find the hiding dragonfly."
+	        android:focusable="false" android:textSize="6pt"/>
+	        
+	    <TextView android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginTop="5px"
+	        android:id="@+id/help_text4"
+	        android:textColor="@color/help_text"
+	        android:text=""
+	        android:focusable="false" android:textSize="6pt"/>
+	
+		<TextView android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:layout_marginTop="5px"
+			android:id="@+id/help_text5" android:text="1/3" android:textColor="@color/help_text"
+			android:focusable="false" android:textSize="6pt"/>
+		
+	</LinearLayout>
+
+	<ImageButton android:id="@+id/game_help_arrow02"
+		android:background="@drawable/game_help_arrow02"
+		android:layout_marginLeft="703px" android:layout_marginTop="301px"
+		android:layout_width="wrap_content" android:layout_height="wrap_content" />
+
+	<ImageButton android:id="@+id/game_help_arrow01"
+		android:background="@drawable/game_help_arrow01"
+		android:layout_marginLeft="69px" android:layout_marginTop="301px"
+		android:layout_width="wrap_content" android:layout_height="wrap_content" />
+
+</RelativeLayout>
+

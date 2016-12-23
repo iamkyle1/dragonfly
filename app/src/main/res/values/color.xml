@@ -1,0 +1,6 @@
+<resources>
+    <color name="default_text">#FF684317</color>
+    <color name="help_text">#FFE6E0D0</color>
+    <color name="button_text">#FF835129</color>
+    <color name="button_text_s">#FFFFFFFF</color>
+</resources>

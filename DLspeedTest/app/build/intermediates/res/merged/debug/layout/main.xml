@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/speedtestmain"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/Mainlayout"
+            android:layout_width="fill_parent"
+            android:layout_height="415dp"
+            android:layout_weight="56.37" >
+
+            <TextView
+                android:id="@+id/TVGuide"
+                android:layout_width="312dp"
+                android:layout_height="25dp"
+                android:layout_alignParentBottom="false"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="5dp"
+                android:text="@string/TvGuideText"
+                android:textSize="14dp" />
+
+            <Spinner
+                android:id="@+id/spnURL"
+                android:layout_width="300dp"
+                android:layout_height="40dp"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/TVGuide"
+                android:entries="@array/URLarrays"
+                android:prompt="@string/URLPrompt"
+                android:textSize="20dp" />
+
+            <EditText
+                android:id="@+id/EDTXTURL"
+                android:layout_width="300dp"
+                android:layout_height="40dp"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/spnURL"
+                android:layout_marginTop="5dp"
+                android:hint="@string/hint1"
+                android:inputType="text"
+                android:lines="2"
+                android:maxLength="100"
+                android:textSize="9dp" />
+
+            <Button
+                android:id="@+id/BtnDownload"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/EDTXTURL"
+                android:layout_marginLeft="50dp"
+                android:text="@string/BtnDownload" />
+
+            <Button
+                android:id="@+id/BtnCancel"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:layout_alignBaseline="@+id/BtnDownload"
+                android:layout_alignBottom="@+id/BtnDownload"
+                android:layout_alignRight="@+id/EDTXTURL"
+                android:layout_marginRight="32dp"
+                android:text="@string/BtnCancel" />
+
+            <TextView
+                android:id="@+id/Progress"
+                android:layout_width="70dp"
+                android:layout_height="28dp"
+                android:layout_alignParentBottom="false"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/BtnDownload"
+                android:layout_marginTop="15dp"
+                android:text="@string/ProgressText"
+                android:textSize="16dp" />
+
+            <ProgressBar
+                android:id="@+id/ProgressBar"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="200dp"
+                android:layout_height="28dp"
+                android:layout_alignRight="@+id/EDTXTURL"
+                android:layout_alignTop="@+id/Progress"
+                android:layout_toRightOf="@+id/Progress"
+                android:max="100"
+                android:progress="0" />
+ 
+            <TextView
+                android:id="@+id/Prtge"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_above="@+id/resultTable"
+                android:layout_alignBottom="@+id/ProgressBar"
+                android:layout_alignTop="@+id/ProgressBar"
+                android:layout_marginLeft="170dp"
+                android:layout_marginTop="2dp"
+                android:textSize="14dip" >
+            </TextView> 
+
+            <TableLayout
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/resultTable"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/ProgressBar"
+                android:layout_marginTop="25dp"
+                android:stretchColumns="1" >
+            </TableLayout>
+
+            <TextView
+                android:id="@+id/webPopup"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_above="@+id/resultTable"
+                android:layout_alignBottom="@+id/ProgressBar"
+                android:layout_alignTop="@+id/ProgressBar"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true" >
+            </TextView>
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/resultview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/Mainlayout"
+            android:layout_width="fill_parent"
+            android:layout_height="415dp"
+            android:layout_weight="56.37" >
+
+            <TextView
+                android:id="@+id/ResultGuide"
+                android:layout_width="fill_parent"
+                android:layout_height="25dp"
+                android:layout_alignParentBottom="false"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="5dp"
+                android:layout_marginTop="5dp"
+                android:text="@string/ResultGuideText"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/BtneMail"
+                android:layout_width="60dp"
+                android:layout_height="30dp"
+                android:layout_alignBaseline="@+id/BtnDelete"
+                android:layout_alignBottom="@+id/BtnDelete"
+                android:layout_alignRight="@+id/BtnDelete"
+                android:layout_marginRight="45dp"
+                android:text="eMail"
+                android:textSize="10dp" />
+
+            <Button
+                android:id="@+id/BtnDelete"
+                android:layout_width="50dp"
+                android:layout_height="30dp"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/ResultGuide"
+                android:layout_marginLeft="50dp"
+                android:text="del"
+                android:textSize="10dp" />
+
+            <ScrollView
+                android:id="@+id/tbScroll"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/menu"
+                android:layout_below="@+id/BtneMail"
+                android:layout_margin="2dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp" >
+
+                <TableLayout
+                    android:id="@+id/header"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/BtneMail"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginRight="2dp"
+                    android:background="@android:color/black" >
+
+                    <TableRow>
+
+                        <TextView
+                            android:layout_width="8dp"
+                            android:layout_margin="1dp"
+                            android:layout_weight="1"
+                            android:background="@android:color/white"
+                            android:gravity="center_horizontal"
+                            android:text="N/W"
+                            android:textColor="@android:color/black" />
+
+                        <TextView
+                            android:layout_width="8dp"
+                            android:layout_margin="1dp"
+                            android:layout_weight="1"
+                            android:background="@android:color/white"
+                            android:gravity="center_horizontal"
+                            android:text="URL"
+                            android:textColor="@android:color/black" />
+
+                        <TextView
+                            android:layout_width="10dp"
+                            android:layout_margin="1dp"
+                            android:layout_weight="1"
+                            android:background="@android:color/white"
+                            android:gravity="center_horizontal"
+                            android:text="DATE"
+                            android:textColor="@android:color/black" />
+
+                        <TextView
+                            android:layout_width="10dp"
+                            android:layout_margin="1dp"
+                            android:layout_weight="1"
+                            android:background="@android:color/white"
+                            android:gravity="center_horizontal"
+                            android:text="kbps"
+                            android:textColor="@android:color/black" />
+
+                        <TextView
+                            android:layout_width="10dp"
+                            android:layout_margin="1dp"
+                            android:layout_weight="1"
+                            android:background="@android:color/white"
+                            android:gravity="center_horizontal"
+                            android:text="Second"
+                            android:textColor="@android:color/black" />
+
+                        <TextView
+                            android:layout_width="10dp"
+                            android:layout_margin="1dp"
+                            android:layout_weight="1"
+                            android:background="@android:color/white"
+                            android:gravity="center_horizontal"
+                            android:text="DL %"
+                            android:textColor="@android:color/black" />
+                    </TableRow>
+                </TableLayout>
+            </ScrollView>
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/aboutview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/AboutGuide"
+            android:layout_width="fill_parent"
+            android:layout_height="25dp"
+            android:layout_alignParentBottom="false"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="5dp"
+            android:layout_marginTop="5dp"
+            android:text="@string/AboutText"
+            android:textSize="20dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/toolview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <TableLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/toolTable"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginTop="15dp"
+            android:stretchColumns="1" >
+        </TableLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/menu"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="bottom"
+        android:layout_weight="0"
+        android:background="#ccccff"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/SpeedTest"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:text="Speed Test" />
+
+        <Button
+            android:id="@+id/Result"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:text="Result" />
+
+        <Button
+            android:id="@+id/Tool"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:text="Tools" />
+
+        <Button
+            android:id="@+id/About"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:onClick="onClickExplicitIntent"
+            android:text="About" />
+    </LinearLayout>
+
+</FrameLayout>

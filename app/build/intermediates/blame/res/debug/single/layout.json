@@ -1,0 +1,42 @@
+[
+    {
+        "merged": "/Users/1000128/Documents/Dev/Dragonfly/app/build/intermediates/res/merged/debug/layout/gamehelp.xml",
+        "source": "/Users/1000128/Documents/Dev/Dragonfly/app/src/main/res/layout/gamehelp.xml"
+    },
+    {
+        "merged": "/Users/1000128/Documents/Dev/Dragonfly/app/build/intermediates/res/merged/debug/layout/collection.xml",
+        "source": "/Users/1000128/Documents/Dev/Dragonfly/app/src/main/res/layout/collection.xml"
+    },
+    {
+        "merged": "/Users/1000128/Documents/Dev/Magic Book Folder/Dragonfly/app/build/intermediates/res/merged/debug/layout/collection.xml",
+        "source": "/Users/1000128/Documents/Dev/Magic Book Folder/Dragonfly/app/src/main/res/layout/collection.xml"
+    },
+    {
+        "merged": "/Users/1000128/Documents/Dev/Dragonfly/app/build/intermediates/res/merged/debug/layout/gameresult.xml",
+        "source": "/Users/1000128/Documents/Dev/Dragonfly/app/src/main/res/layout/gameresult.xml"
+    },
+    {
+        "merged": "/Users/1000128/Documents/Dev/Magic Book Folder/Dragonfly/app/build/intermediates/res/merged/debug/layout/gameresult.xml",
+        "source": "/Users/1000128/Documents/Dev/Magic Book Folder/Dragonfly/app/src/main/res/layout/gameresult.xml"
+    },
+    {
+        "merged": "/Users/1000128/Documents/Dev/Magic Book Folder/Dragonfly/app/build/intermediates/res/merged/debug/layout/gamehelp.xml",
+        "source": "/Users/1000128/Documents/Dev/Magic Book Folder/Dragonfly/app/src/main/res/layout/gamehelp.xml"
+    },
+    {
+        "merged": "/Users/1000128/Documents/Dev/Dragonfly/app/build/intermediates/res/merged/debug/layout/gameplay.xml",
+        "source": "/Users/1000128/Documents/Dev/Dragonfly/app/src/main/res/layout/gameplay.xml"
+    },
+    {
+        "merged": "/Users/1000128/Documents/Dev/Dragonfly/app/build/intermediates/res/merged/debug/layout/gametitle.xml",
+        "source": "/Users/1000128/Documents/Dev/Dragonfly/app/src/main/res/layout/gametitle.xml"
+    },
+    {
+        "merged": "/Users/1000128/Documents/Dev/Magic Book Folder/Dragonfly/app/build/intermediates/res/merged/debug/layout/gameplay.xml",
+        "source": "/Users/1000128/Documents/Dev/Magic Book Folder/Dragonfly/app/src/main/res/layout/gameplay.xml"
+    },
+    {
+        "merged": "/Users/1000128/Documents/Dev/Magic Book Folder/Dragonfly/app/build/intermediates/res/merged/debug/layout/gametitle.xml",
+        "source": "/Users/1000128/Documents/Dev/Magic Book Folder/Dragonfly/app/src/main/res/layout/gametitle.xml"
+    }
+]

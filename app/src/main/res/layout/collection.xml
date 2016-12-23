@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:background="@drawable/collection_bg">
+
+	<ImageButton android:id="@+id/collection_back_btn"
+		android:layout_marginLeft="30px" android:layout_marginTop="30px"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:background="@drawable/intro_back_btn" />
+
+	<TextView android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:textStyle="bold"
+		android:gravity="center" android:textSize="15pt"
+		android:layout_marginTop="11pt" android:text="Collection"
+		android:textColor="@color/default_text" />
+
+	<FrameLayout
+		android:focusable="false" 
+		android:layout_marginTop="112px"
+		android:layout_marginLeft="86px"
+	    android:layout_width="200px"
+		android:layout_height="156px"
+		android:id="@+id/collect_card1"
+		android:background="@drawable/bugs_card_btn">
+			
+	<ImageView 
+		android:id="@+id/Image_card1"
+		android:layout_width="180px"
+		android:layout_height="120px"
+		android:layout_marginTop="5px"
+		android:layout_gravity="top|center"
+		android:background="@drawable/game_result_bugs01"
+		android:visibility="invisible"/>
+	
+	<TextView  
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" 
+		android:textSize="5pt"
+		android:layout_marginBottom="10px"
+		android:layout_gravity="center|bottom"
+		android:text="Widow Skimmer"
+		android:textColor="@color/default_text"/>
+	</FrameLayout>
+
+		<FrameLayout 
+		android:focusable="false"
+		android:layout_marginTop="112px"
+		android:layout_marginLeft="305px"
+	    android:layout_width="200px"
+		android:layout_height="156px"
+		android:id="@+id/collect_card2"
+		android:background="@drawable/bugs_card_btn">
+			
+	<ImageView 
+		android:id="@+id/Image_card2"
+		android:layout_width="180px"
+		android:layout_height="120px"
+		android:layout_marginTop="5px"
+		android:layout_gravity="top|center"
+		android:background="@drawable/game_result_bugs02"
+		android:visibility="invisible"/>
+	
+	<TextView  
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" 
+		android:textSize="5pt"
+		android:layout_marginBottom="10px"
+		android:layout_gravity="center|bottom"
+		android:text="Common Hawker"
+		android:textColor="@color/default_text"/>
+	</FrameLayout>
+	
+		<FrameLayout 
+		android:focusable="false"
+		android:layout_marginTop="112px"
+		android:layout_marginLeft="518px"
+	    android:layout_width="200px"
+		android:layout_height="156px"
+		android:id="@+id/collect_card3"
+		android:background="@drawable/bugs_card_btn">
+			
+	<ImageView 
+		android:id="@+id/Image_card3"
+		android:layout_width="180px"
+		android:layout_height="120px"
+		android:layout_marginTop="5px"
+		android:layout_gravity="top|center"
+		android:background="@drawable/game_result_bugs03"
+		android:visibility="invisible"/>
+	
+	<TextView  
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" 
+		android:textSize="5pt"
+		android:layout_marginBottom="10px"
+		android:layout_gravity="center|bottom"
+		android:text="Common Whitetail"
+		android:textColor="@color/default_text"/>
+	</FrameLayout>
+	
+		<FrameLayout 
+		android:focusable="false"
+		android:layout_marginTop="284px"
+		android:layout_marginLeft="194px"
+	    android:layout_width="200px"
+		android:layout_height="156px"
+		android:id="@+id/collect_card4"
+		android:background="@drawable/bugs_card_btn">
+			
+	<ImageView 
+		android:id="@+id/Image_card4"
+		android:layout_width="180px"
+		android:layout_height="120px"
+		android:layout_marginTop="5px"
+		android:layout_gravity="top|center"
+		android:background="@drawable/game_result_bugs04"
+		android:visibility="invisible"/>
+	
+	<TextView  
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" 
+		android:textSize="5pt"
+		android:layout_marginBottom="10px"
+		android:layout_gravity="center|bottom"
+		android:text="Green Darner"
+		android:textColor="@color/default_text"/>
+	</FrameLayout>
+	
+		<FrameLayout 
+		android:focusable="false"
+		android:layout_marginTop="284px"
+		android:layout_marginLeft="410px"
+	    android:layout_width="200px"
+		android:layout_height="156px"
+		android:id="@+id/collect_card5"
+		android:background="@drawable/bugs_card_btn">
+			
+	<ImageView
+		android:id="@+id/Image_card5"
+		android:layout_width="180px"
+		android:layout_height="120px"
+		android:layout_marginTop="5px"
+		android:layout_gravity="top|center"
+		android:background="@drawable/game_result_bugs05"
+		android:visibility="invisible"/>
+	
+	<TextView  
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" 
+		android:textSize="5pt"
+		android:layout_marginBottom="10px"
+		android:layout_gravity="center|bottom"
+		android:text="Red-veined darter"
+		android:textColor="@color/default_text"/>
+	</FrameLayout>
+		
+
+	
+</RelativeLayout>	

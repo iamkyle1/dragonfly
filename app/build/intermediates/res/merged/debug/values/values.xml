@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="button_text">#FF835129</color>
+    <color name="button_text_s">#FFFFFFFF</color>
+    <color name="default_text">#FF684317</color>
+    <color name="help_text">#FFE6E0D0</color>
+    <string name="app_name">Mission Dragonfly</string>
+    <string name="hello">Hello World, MissionA!</string>
+</resources>

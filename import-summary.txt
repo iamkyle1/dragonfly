@@ -1,0 +1,112 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* default.properties
+* doc/
+* doc/allclasses-frame.html
+* doc/allclasses-noframe.html
+* doc/com/
+* doc/com/skt/
+* doc/com/skt/realedu/
+* doc/com/skt/realedu/mission/
+* doc/com/skt/realedu/mission/dragonfly/
+* doc/com/skt/realedu/mission/dragonfly/CameraPreview.html
+* doc/com/skt/realedu/mission/dragonfly/Collection.html
+* doc/com/skt/realedu/mission/dragonfly/Dragonfly.html
+* doc/com/skt/realedu/mission/dragonfly/Flip3dAnimation.html
+* doc/com/skt/realedu/mission/dragonfly/Frog.html
+* doc/com/skt/realedu/mission/dragonfly/GameHelp.html
+* doc/com/skt/realedu/mission/dragonfly/GamePlay.html
+* doc/com/skt/realedu/mission/dragonfly/GameResult.html
+* doc/com/skt/realedu/mission/dragonfly/GameTitle.html
+* doc/com/skt/realedu/mission/dragonfly/GameView.Render.html
+* doc/com/skt/realedu/mission/dragonfly/GameView.html
+* doc/com/skt/realedu/mission/dragonfly/Mover.html
+* doc/com/skt/realedu/mission/dragonfly/R.attr.html
+* doc/com/skt/realedu/mission/dragonfly/R.color.html
+* doc/com/skt/realedu/mission/dragonfly/R.drawable.html
+* doc/com/skt/realedu/mission/dragonfly/R.html
+* doc/com/skt/realedu/mission/dragonfly/R.id.html
+* doc/com/skt/realedu/mission/dragonfly/R.layout.html
+* doc/com/skt/realedu/mission/dragonfly/R.raw.html
+* doc/com/skt/realedu/mission/dragonfly/R.string.html
+* doc/com/skt/realedu/mission/dragonfly/class-use/
+* doc/com/skt/realedu/mission/dragonfly/class-use/CameraPreview.html
+* doc/com/skt/realedu/mission/dragonfly/class-use/Collection.html
+* doc/com/skt/realedu/mission/dragonfly/class-use/Dragonfly.html
+* doc/com/skt/realedu/mission/dragonfly/class-use/Flip3dAnimation.html
+* doc/com/skt/realedu/mission/dragonfly/class-use/Frog.html
+* doc/com/skt/realedu/mission/dragonfly/class-use/GameHelp.html
+* doc/com/skt/realedu/mission/dragonfly/class-use/GamePlay.html
+* doc/com/skt/realedu/mission/dragonfly/class-use/GameResult.html
+* doc/com/skt/realedu/mission/dragonfly/class-use/GameTitle.html
+* doc/com/skt/realedu/mission/dragonfly/class-use/GameView.Render.html
+* doc/com/skt/realedu/mission/dragonfly/class-use/GameView.html
+* doc/com/skt/realedu/mission/dragonfly/class-use/Mover.html
+* doc/com/skt/realedu/mission/dragonfly/class-use/R.attr.html
+* doc/com/skt/realedu/mission/dragonfly/class-use/R.color.html
+* doc/com/skt/realedu/mission/dragonfly/class-use/R.drawable.html
+* doc/com/skt/realedu/mission/dragonfly/class-use/R.html
+* doc/com/skt/realedu/mission/dragonfly/class-use/R.id.html
+* doc/com/skt/realedu/mission/dragonfly/class-use/R.layout.html
+* doc/com/skt/realedu/mission/dragonfly/class-use/R.raw.html
+* doc/com/skt/realedu/mission/dragonfly/class-use/R.string.html
+* doc/com/skt/realedu/mission/dragonfly/package-frame.html
+* doc/com/skt/realedu/mission/dragonfly/package-summary.html
+* doc/com/skt/realedu/mission/dragonfly/package-tree.html
+* doc/com/skt/realedu/mission/dragonfly/package-use.html
+* doc/constant-values.html
+* doc/deprecated-list.html
+* doc/help-doc.html
+* doc/index-files/
+* doc/index-files/index-1.html
+* doc/index-files/index-10.html
+* doc/index-files/index-11.html
+* doc/index-files/index-12.html
+* doc/index-files/index-13.html
+* doc/index-files/index-14.html
+* doc/index-files/index-15.html
+* doc/index-files/index-2.html
+* doc/index-files/index-3.html
+* doc/index-files/index-4.html
+* doc/index-files/index-5.html
+* doc/index-files/index-6.html
+* doc/index-files/index-7.html
+* doc/index-files/index-8.html
+* doc/index-files/index-9.html
+* doc/index.html
+* doc/overview-tree.html
+* doc/package-list
+* doc/resources/
+* doc/resources/inherit.gif
+* doc/stylesheet.css
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => app/src/main/AndroidManifest.xml
+* res/ => app/src/main/res/
+* src/ => app/src/main/java/
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

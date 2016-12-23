@@ -1,0 +1,58 @@
+[
+    {
+        "merged": "/Users/1000128/Documents/Dev/Dragonfly/app/build/intermediates/res/merged/debug/raw/fail.mp3",
+        "source": "/Users/1000128/Documents/Dev/Dragonfly/app/src/main/res/raw/fail.mp3"
+    },
+    {
+        "merged": "/Users/1000128/Documents/Dev/Dragonfly/app/build/intermediates/res/merged/debug/raw/intro_bg.mp3",
+        "source": "/Users/1000128/Documents/Dev/Dragonfly/app/src/main/res/raw/intro_bg.mp3"
+    },
+    {
+        "merged": "/Users/1000128/Documents/Dev/Magic Book Folder/Dragonfly/app/build/intermediates/res/merged/debug/raw/game_over.mp3",
+        "source": "/Users/1000128/Documents/Dev/Magic Book Folder/Dragonfly/app/src/main/res/raw/game_over.mp3"
+    },
+    {
+        "merged": "/Users/1000128/Documents/Dev/Dragonfly/app/build/intermediates/res/merged/debug/raw/game_over.mp3",
+        "source": "/Users/1000128/Documents/Dev/Dragonfly/app/src/main/res/raw/game_over.mp3"
+    },
+    {
+        "merged": "/Users/1000128/Documents/Dev/Magic Book Folder/Dragonfly/app/build/intermediates/res/merged/debug/raw/shot.mp3",
+        "source": "/Users/1000128/Documents/Dev/Magic Book Folder/Dragonfly/app/src/main/res/raw/shot.mp3"
+    },
+    {
+        "merged": "/Users/1000128/Documents/Dev/Dragonfly/app/build/intermediates/res/merged/debug/raw/background.mp3",
+        "source": "/Users/1000128/Documents/Dev/Dragonfly/app/src/main/res/raw/background.mp3"
+    },
+    {
+        "merged": "/Users/1000128/Documents/Dev/Magic Book Folder/Dragonfly/app/build/intermediates/res/merged/debug/raw/eat.mp3",
+        "source": "/Users/1000128/Documents/Dev/Magic Book Folder/Dragonfly/app/src/main/res/raw/eat.mp3"
+    },
+    {
+        "merged": "/Users/1000128/Documents/Dev/Magic Book Folder/Dragonfly/app/build/intermediates/res/merged/debug/raw/intro_bg.mp3",
+        "source": "/Users/1000128/Documents/Dev/Magic Book Folder/Dragonfly/app/src/main/res/raw/intro_bg.mp3"
+    },
+    {
+        "merged": "/Users/1000128/Documents/Dev/Dragonfly/app/build/intermediates/res/merged/debug/raw/eat.mp3",
+        "source": "/Users/1000128/Documents/Dev/Dragonfly/app/src/main/res/raw/eat.mp3"
+    },
+    {
+        "merged": "/Users/1000128/Documents/Dev/Magic Book Folder/Dragonfly/app/build/intermediates/res/merged/debug/raw/success.mp3",
+        "source": "/Users/1000128/Documents/Dev/Magic Book Folder/Dragonfly/app/src/main/res/raw/success.mp3"
+    },
+    {
+        "merged": "/Users/1000128/Documents/Dev/Magic Book Folder/Dragonfly/app/build/intermediates/res/merged/debug/raw/background.mp3",
+        "source": "/Users/1000128/Documents/Dev/Magic Book Folder/Dragonfly/app/src/main/res/raw/background.mp3"
+    },
+    {
+        "merged": "/Users/1000128/Documents/Dev/Magic Book Folder/Dragonfly/app/build/intermediates/res/merged/debug/raw/fail.mp3",
+        "source": "/Users/1000128/Documents/Dev/Magic Book Folder/Dragonfly/app/src/main/res/raw/fail.mp3"
+    },
+    {
+        "merged": "/Users/1000128/Documents/Dev/Dragonfly/app/build/intermediates/res/merged/debug/raw/success.mp3",
+        "source": "/Users/1000128/Documents/Dev/Dragonfly/app/src/main/res/raw/success.mp3"
+    },
+    {
+        "merged": "/Users/1000128/Documents/Dev/Dragonfly/app/build/intermediates/res/merged/debug/raw/shot.mp3",
+        "source": "/Users/1000128/Documents/Dev/Dragonfly/app/src/main/res/raw/shot.mp3"
+    }
+]

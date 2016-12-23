@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:orientation="vertical" android:background="@drawable/game_result_bg">
+
+	<TextView android:layout_width="wrap_content" android:id="@+id/GameTitle"
+		android:layout_height="wrap_content" android:layout_marginLeft="17px"
+		android:gravity="center" android:textColor="@color/default_text"
+		android:text="GAME RESULT" android:textSize="8pt"
+		android:layout_marginTop="15px" />
+	<ImageView android:layout_width="wrap_content" android:id="@+id/GameInfo1"
+		android:layout_height="wrap_content" android:background="@drawable/top_image01"
+		android:layout_marginLeft="495px" android:layout_marginTop="12px" />
+	<TextView android:layout_width="wrap_content" android:id="@+id/GameInfo2"
+		android:layout_height="wrap_content" android:layout_marginTop="15px"
+		android:layout_marginLeft="547px" android:textColor="@color/default_text"
+		android:text="X 10" android:textSize="8pt" />
+	<TextView android:layout_width="wrap_content" android:id="@+id/GameInfo3"
+		android:layout_height="wrap_content" android:layout_marginTop="15px"
+		android:layout_marginLeft="635px" android:textColor="@color/default_text"
+		android:text="Succeed!" android:textSize="8pt" />
+
+
+	<RelativeLayout android:layout_width="fill_parent" android:id="@+id/resultParent"
+		android:layout_height="480px">
+
+		<RelativeLayout android:layout_width="620px"
+			android:layout_height="350px" android:layout_marginTop="90px"
+			android:layout_marginLeft="20px" android:id="@+id/result_lable">
+
+			<RelativeLayout android:background="@drawable/game_result_bg02"
+				android:layout_width="fill_parent" android:layout_height="wrap_content">
+
+				<TextView android:id="@+id/result_name"
+					android:layout_width="wrap_content" android:layout_height="wrap_content"
+					android:textColor="@color/default_text" android:textSize="10pt"
+					android:layout_marginLeft="29px" android:layout_marginTop="32px" />
+
+				<ImageButton android:id="@+id/card_btn01"
+					android:layout_width="wrap_content" android:layout_height="wrap_content"
+					android:layout_marginTop="34px" android:layout_marginLeft="502px"
+					android:background="@drawable/card_btn01" />
+
+				<ImageView android:id="@+id/result_img"
+					android:layout_width="300px" android:layout_height="200px"
+					android:layout_marginTop="100px" android:layout_marginLeft="34px" />
+
+				<ScrollView android:layout_width="360px" android:id="@+id/infoScroll1"
+					android:layout_height="230px" android:layout_marginLeft="360px"
+					android:layout_marginTop="103px" android:scrollbars="none">
+
+					<RelativeLayout android:layout_width="fill_parent"
+						android:layout_height="wrap_content">
+
+						<TextView android:id="@+id/result_info"
+							android:layout_width="450px" android:layout_height="wrap_content"
+							scrollHorizontally="true" android:textSize="7pt"
+							android:textColor="@color/default_text" android:lineSpacingExtra="3px"
+							android:layout_marginRight="10px" />
+
+					</RelativeLayout>
+				</ScrollView>
+			</RelativeLayout>
+		</RelativeLayout>
+
+		<RelativeLayout android:layout_width="620px"
+			android:layout_height="350px" android:layout_marginTop="90px"
+			android:layout_marginLeft="20px" android:id="@+id/result_lable1"
+			android:background="@drawable/game_result_bg02">
+
+			<TextView android:id="@+id/card_flyname"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:textColor="@color/default_text" android:textSize="11pt"
+				android:layout_marginLeft="25px" android:layout_marginTop="30px" />
+
+			<ImageButton android:id="@+id/card_btn02"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:layout_marginTop="34px" android:layout_marginLeft="502px"
+				android:background="@drawable/card_btn02" />
+
+			<ScrollView android:layout_width="600px" android:id="@+id/infoScroll2"
+				android:layout_height="230px" android:layout_marginLeft="10px"
+				android:layout_marginTop="103px" android:scrollbars="none">
+
+				<RelativeLayout android:layout_width="fill_parent"
+					android:layout_height="wrap_content">
+
+					<TextView android:id="@+id/result_cardinfo"
+						android:layout_width="wrap_content" android:layout_height="wrap_content"
+						scrollHorizontally="true" android:textSize="7pt"
+						android:textColor="@color/default_text" android:layout_marginLeft="10px"
+						android:lineSpacingExtra="3px" />
+
+				</RelativeLayout>
+			</ScrollView>
+
+		</RelativeLayout>
+
+
+        <RelativeLayout 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="436px"
+        android:id="@+id/card_bottom">
+		
+		<ImageButton android:id="@+id/card_arrow01"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:layout_marginLeft="240px"
+			android:background="@drawable/card_arrow01" />
+
+		<TextView android:id="@+id/result_number"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:textColor="@color/default_text" android:layout_marginLeft="310px"
+			android:layout_marginTop="2px" android:textSize="9pt" />
+
+		<ImageButton android:id="@+id/card_arrow02"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:layout_marginLeft="400px"
+			android:background="@drawable/card_arrow02" />
+        
+        </RelativeLayout>
+        
+
+		<Button android:id="@+id/result_send" android:layout_width="120px"
+			android:layout_height="78px" scrollHorizontally="true"
+			android:layout_marginTop="98px" android:layout_marginLeft="659px"
+			android:background="@drawable/game_result_btn" android:textColor="@color/button_text"
+			android:text="Result SEND" android:textSize="8pt" />
+
+		<Button android:id="@+id/result_replay" android:layout_width="120px"
+			android:layout_height="78px" android:background="@drawable/game_result_btn"
+			android:layout_marginTop="284px" android:layout_marginLeft="659px"
+			android:textColor="@color/button_text" android:text="REPLAY"
+			android:textSize="8pt" />
+
+		<Button android:id="@+id/result_end" android:layout_width="120px"
+			android:layout_height="78px" android:background="@drawable/game_result_btn"
+			android:layout_marginTop="382px" android:layout_marginLeft="659px"
+			scrollHorizontally="true" android:textColor="@color/button_text"
+			android:text="HOME" android:textSize="8pt" />
+
+	</RelativeLayout>
+
+</RelativeLayout>	
+	

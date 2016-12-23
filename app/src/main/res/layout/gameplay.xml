@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:orientation="vertical">
+
+	<FrameLayout android:layout_width="fill_parent"
+		android:layout_height="fill_parent" android:background="#FFFFFFFF"
+		android:id="@+id/background">
+	</FrameLayout>
+	
+	<RelativeLayout android:layout_width="fill_parent"
+        android:layout_height="70px" android:background="@drawable/top_bg">
+
+        <TextView android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:layout_marginLeft="19px"
+            android:layout_marginTop="15px" android:text="Rest" android:textColor="@color/default_text" android:textSize="5pt"/>
+
+        <TextView android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:layout_marginLeft="19px"
+            android:layout_marginTop="30px" android:text="Sec" android:textColor="@color/default_text" android:textSize="5pt"/>
+
+        <TextView android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:layout_marginLeft="65px" android:layout_marginTop="12px"
+            android:id="@+id/game_time" android:text="60.00" android:textColor="@color/default_text" android:textSize="11pt" android:textStyle="bold"/>
+
+
+        <ImageView android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:layout_marginLeft="352px"
+            android:layout_marginTop="12px" android:background="@drawable/top_image01" />
+
+        <TextView android:layout_width="wrap_content"
+            android:layout_height="40px" android:layout_marginLeft="400px" android:layout_marginTop="12px"
+            android:id="@+id/game_number" android:text="X 0" android:gravity="center_vertical"
+            android:textColor="@color/default_text" android:textSize="10pt"/>
+
+        <ImageButton android:id="@+id/game_top_btn"
+            android:background="@drawable/top_btn" android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:layout_marginLeft="729px"
+            android:layout_marginTop="7px" />
+    </RelativeLayout>
+    
+    <RelativeLayout android:id="@+id/pause_panel" android:layout_width="fill_parent"
+        android:layout_height="fill_parent" android:background="#80000000" android:visibility="invisible">
+        <TextView android:id="@+id/pause_continue"
+	        android:layout_marginLeft="275px" android:layout_marginTop="114px"
+	        android:layout_width="250px" android:layout_height="58px"
+	        android:textStyle="bold" android:gravity="center" android:textSize="7pt"
+	        android:text="CONTINUE" android:background="@drawable/intro_btn" android:textColor="@color/button_text" android:textColorHighlight="@color/button_text_s"/>
+	
+	    <TextView android:id="@+id/pause_replay"
+            android:layout_marginLeft="275px" android:layout_marginTop="192px"
+            android:layout_width="250px" android:layout_height="58px"
+            android:textStyle="bold" android:gravity="center" android:textSize="7pt"
+            android:text="REPLAY" android:background="@drawable/intro_btn" android:textColor="@color/button_text" android:textColorHighlight="@color/button_text_s"/>
+	
+	    <TextView android:id="@+id/pause_help"
+            android:layout_marginLeft="275px" android:layout_marginTop="269px"
+            android:layout_width="250px" android:layout_height="58px"
+            android:textStyle="bold" android:gravity="center" android:textSize="7pt"
+            android:text="HELP" android:background="@drawable/intro_btn" android:textColor="@color/button_text" android:textColorHighlight="@color/button_text_s"/>
+            
+        <TextView android:id="@+id/pause_end"
+            android:layout_marginLeft="275px" android:layout_marginTop="346px"
+            android:layout_width="250px" android:layout_height="58px"
+            android:textStyle="bold" android:gravity="center" android:textSize="7pt"
+            android:text="HOME" android:background="@drawable/intro_btn" android:textColor="@color/button_text" android:textColorHighlight="@color/button_text_s"/>
+    </RelativeLayout>
+    
+     <RelativeLayout android:id="@+id/GameOver_panel" android:layout_width="fill_parent"
+        android:layout_height="fill_parent" android:background="#80000000" android:visibility="invisible">
+        
+        <TextView android:id="@+id/GameOver_replay"
+            android:layout_marginLeft="275px" android:layout_marginTop="192px"
+            android:layout_width="250px" android:layout_height="58px"
+            android:textStyle="bold" android:gravity="center" android:textSize="7pt"
+            android:text="RESTART" android:background="@drawable/intro_btn" android:textColor="@color/button_text" android:textColorHighlight="@color/button_text_s"/>
+	
+	    <TextView android:id="@+id/GameOver_help"
+            android:layout_marginLeft="275px" android:layout_marginTop="269px"
+            android:layout_width="250px" android:layout_height="58px"
+            android:textStyle="bold" android:gravity="center" android:textSize="7pt"
+            android:text="HELP" android:background="@drawable/intro_btn" android:textColor="@color/button_text" android:textColorHighlight="@color/button_text_s"/>
+            
+        <TextView android:id="@+id/GameOver_end"
+            android:layout_marginLeft="275px" android:layout_marginTop="346px"
+            android:layout_width="250px" android:layout_height="58px"
+            android:textStyle="bold" android:gravity="center" android:textSize="7pt"
+            android:text="HOME" android:background="@drawable/intro_btn" android:textColor="@color/button_text" android:textColorHighlight="@color/button_text_s"/>
+    </RelativeLayout>
+
+</RelativeLayout>
